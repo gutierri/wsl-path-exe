@@ -14,6 +14,7 @@ setup(
     author_email='me@gutierri.me',
     license='',
     packages=find_packages(),
+    install_requires=['mock'],
     entry_points = {
         'console_scripts': (
             'wsl-path-exe = wsl_path_exe.__main__:main'
