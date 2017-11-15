@@ -5,15 +5,12 @@ import io
 with io.open('README.rst', encoding='utf8') as readme:
     long_description = readme.read()
 
-def author():
-    pass
-
 setup(
     name="wsl-path-exe",
     version="0.0.1",
     long_description=long_description,
     download_url='https://github.com/gutierri/wsl-path-exe',
-    author='Gutierri Barbiza',
+    author='Gutierri Barb0za',
     author_email='me@gutierri.me',
     license='',
     packages=find_packages(),

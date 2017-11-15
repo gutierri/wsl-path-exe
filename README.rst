@@ -1,6 +1,9 @@
 WSL-path-exe
 ============
 
+.. image:: https://travis-ci.org/gutierri/wsl-path-exe.svg?branch=master
+    :target: https://travis-ci.org/gutierri/wsl-path-exe
+
 WSL-path-exe is a "script" that helps you use native software (``.exe``) more easily inside `WSL <https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux>`_
 , putting everyone in the PATH without ever having to put .exe at the end. The exe's will behave like a WSL command, so the **autocomplete** of some application will work too (e.g Python). Only **bash** and **zsh** are supported.
 
